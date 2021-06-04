@@ -52,7 +52,6 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
     color:#fff;
     
     z-index: 999;
@@ -69,6 +68,7 @@ video {
 #loading:after {
   content: ".";
   animation: dots .65s steps(5, end) infinite;
+  color:#fff;
 }
 
 @keyframes dots {
